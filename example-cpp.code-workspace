@@ -1,0 +1,47 @@
+{
+    "folders": [
+        {
+            "path": "./",
+        },
+    ],
+    "settings": {
+        "search.exclude": {
+            "**/.cache": true,
+            "**/build": true,
+            "**/compile_commands.json": true
+        },
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "**/.cache": true,
+            "**/build": true,
+            "**/compile_commands.json": true
+        },
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "bash",
+                "icon": "terminal-bash",
+                "args": [
+                    "-l"
+                ]
+            },
+        },
+        "C_Cpp.intelliSenseEngine": "disabled",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "cmake.copyCompileCommands": "${workspaceFolder}/compile_commands.json",
+        "clangd.arguments": [
+            "--query-driver=/usr/bin/arm*g*",
+            "--background-index",
+            "--completion-style=detailed",
+            "--header-insertion=iwyu",
+            "-j=4",
+            "--pch-storage=memory",
+            "--malloc-trim",
+            "--log=error"
+        ]
+    }
+}

@@ -45,11 +45,14 @@
 				"ms-azuretools.vscode-docker",
 				"eamodio.gitlens",
 				"ms-vsliveshare.vsliveshare",
-				"leathong.openscad-language-support",
 				"ms-python.python",
 				"ms-vscode-remote.vscode-remote-extensionpack",
-				"kelvin.vscode-sshfs",
-				"vscjava.vscode-java-pack"
+				"llvm-vs-code-extensions.vscode-clangd",
+				"GitHub.copilot-chat",
+				"GitHub.copilot",
+				"github.vscode-github-actions",
+				"GitHub.vscode-pull-request-github",
+				"EffectiveRangeLLC.erdev"
 			]
 		}
 	},
