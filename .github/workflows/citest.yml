@@ -23,5 +23,4 @@ on:
 jobs:
  call_ci:
   uses: EffectiveRange/ci-workflows/.github/workflows/cmake-ci.yaml@v1
-  secrets:
-    access-token: ${{github.token}}
+  secrets: inherit
