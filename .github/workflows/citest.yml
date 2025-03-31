@@ -22,5 +22,5 @@ on:
 
 jobs:
  call_ci:
-  uses: EffectiveRange/ci-workflows/.github/workflows/cmake-ci.yaml@v1
+  uses: EffectiveRange/ci-workflows/.github/workflows/cmake-ci.yaml@v4
   secrets: inherit
