@@ -23,7 +23,7 @@ TEST_CASE("Sample test case", "[demo][gpio]") {
   p21listener.read_val = 1;
   /// test logic
   IGPIO &igpio = *gpio;
-
+  //
   igpio.set_gpio_mode(21, IGPIO::Modes::INPUT);
   const auto result = igpio.gpio_read(21);
   REQUIRE(result == 1);
