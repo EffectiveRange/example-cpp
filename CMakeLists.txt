@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Effective Range CMake module like ER_DEPS, ER_PACK, etc.
 include(ERBuild NO_POLICY_SCOPE)
 
-set(sample_proj_ver 0.1.0)
+set(sample_proj_ver 0.3.0)
 
 project(er_example_cpp VERSION ${sample_proj_ver} DESCRIPTION "This is a sample project demonstrating the dev tooling capabilities")
 
