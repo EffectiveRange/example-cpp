@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: 2024 Ferenc Nandor Janky <ferenj@effective-range.com>
-// SPDX-FileCopyrightText: 2024 Attila Gombos <attila.gombos@effective-range.com>
-// SPDX-License-Identifier: MIT
+// SPDX-FileCopyrightText: 2024 Attila Gombos
+// <attila.gombos@effective-range.com> SPDX-License-Identifier: MIT
 
 #include <iostream>
 
@@ -9,6 +9,7 @@
 
 #include <igpio.hpp>
 
+// Testing JIRA integration: KAN-4
 template <typename F> struct [[nodiscard]] Finally {
   F f;
   ~Finally() { f(); }
